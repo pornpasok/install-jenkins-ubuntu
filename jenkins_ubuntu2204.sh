@@ -12,3 +12,8 @@ sudo apt update
 sudo apt install jenkins
 
 sudo systemctl start jenkins.service
+
+# kubectl
+curl -LO https://storage.googleapis.com/kubernetes-release/release/v1.23.6/bin/linux/amd64/kubectl 
+chmod +x kubectl
+sudo mv kubectl /usr/local/bin/kubectl
